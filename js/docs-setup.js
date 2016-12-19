@@ -11,7 +11,7 @@ NG_DOCS={
       "type": "overview",
       "moduleName": "Docs Top",
       "shortDescription": "API documentation",
-      "keywords": "api apiurl application assets change crunchmail directives docs documentation feature github https installation io js local-constant modify modules munch overview portal property separated structure top"
+      "keywords": "8000 allow api apikey apiurl application appsettings assets betafeatures change commit config crunchmail dans debug debugprefix default directives docs documentation dsn env environment feature file fr git_commit github gulp http https iframe installation io javascript jaw js lang local-constant missing modify modules munch overview portal postmessage property raven release separated settings source src structure tags task top translations true url urlediteur v1 var version"
     },
     {
       "section": "api",
