@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="jaw">
+<head>
+    <meta charset="UTF-8">
+    <title translate translate-comment="Application title">Crunchmail | Jaw</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/lib/libs-css.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body class="sidebar-menu" ng-class="[bodyClass, hideBody, keyboardClasses]" ng-keydown="addClassesBody($event)" ng-keyup="removeClassBody($event)">
+    <div class="cm-overlay" ng-show="spinnerVisible">
+        <three-bounce-spinner></three-bounce-spinner>
+    </div>
+    <div id="notifications" class="notifications"></div>
+    <cm-menu-profile></cm-menu-profile>
+    <a class="logo" href="#/dashboard"><img src="css/img/small-logo.svg" alt="CrunchMail"/></a>
+    <cm-menu></cm-menu>
+    <!--<change-langues class="selector-language"></change-langues/>-->
+    <!-- Load partial views -->
+    <div class="container routing-classes" ng-view></div>
+
+    <script src="js/bundle.js"></script>
+</body>
+</html>
